@@ -1,0 +1,36 @@
+.bg-yelo{
+    background-color: rgb(230, 240, 140);
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+.border-radius{
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+}
+
+.bg-green{
+    background-color: rgb(107, 179, 107);
+}
+
+.justify{
+    justify-content: space-around;
+}
+
+.border-radius2{
+    border-top-right-radius: 100px;
+}
+
+.margin{
+    margin-left: 30px;
+}
+.rounded-circle{
+    height: 40px;
+    width: 40px;
+}
+.justify-content-center{
+    padding-top: 50px;
+   
+}
