@@ -1,0 +1,11 @@
+.bg-color{
+    background-color: rgb(230, 230, 230);
+}
+.bg-color2{
+    background-color: rgba(248, 248, 238, 0.925);
+}
+
+.height{
+    padding-top: 240px;
+    padding-bottom: 255px;
+}

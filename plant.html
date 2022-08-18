@@ -11,16 +11,17 @@
 <body>
     <div class="container-fluid bg-yelo">
         <div class="row">
-            <div class="col-12 col-md-9 col-lg-6 mx-auto mt-4 bg-success">
-                <nav class="navbar navbar-expand-sm bg-success navbar-dark">
+            <div class="col-12 col-md-9 col-lg-6 mx-auto mt-4 mb-4 bg-white">
+              <div class=" row bg-success">  
+              <nav class="navbar navbar-expand-sm bg-success navbar-dark">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
                         <img src="./images/logo.png" alt="Avatar Logo" style="width: 50px;">
                       </a>
-                      <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
                         <span class="navbar-toggler-icon"></span>
-                      </button> -->
-                      <div class="navbar">
+                      </button> 
+                      <div class="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul class="navbar-nav">
                           <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
@@ -34,17 +35,21 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                           </li>
+                          <li class="nav-item">
+                            <button class="btn btn-warning" type="button">Sign in</button>
+
+                          </li>
                         </ul>
                         
                       </div>
-                      <button class="btn btn-warning" type="button">Sign out</button>
 
                     </div>
                 </nav>
-                <div class="row mt-4">
-                    <div class="col-6 margin-left mb-4">
+              </div>
+              <div class="row pt-4 bg-success">
+                    <div class="col-12 col-md-6 mb-4 mx-auto">
                         <p>
-                            <h1 class="display-4 text-white text-bold ml-4">
+                            <h1 class="display-4 text-white text-bold">
                               <b> 
                                 Home is where your Plants are
                               </b></h1>
@@ -58,34 +63,44 @@
                         <button class="btn btn-warning" type="button">Explore More</button>
 
                     </div>
-                    <div class="col-5 bg-green border-radius mb-4 justify-content-center">
+                    <div class="col-12 col-md-4 bg-green mx-auto border-radius mb-4 justify-content-center">
                         <img src="./images/colflower.png" style="width: 100%;">
                     </div>
-                </div>
-                <div class="row bg-white">
+              </div>
+              <div class="row">
+                  <div class="col-11 mx-auto">
+                   <div class="row bg-white">
                   <div class="col-8 mx-auto mt-4">
                     <p>
                       <h1 class="text-center text-success mb-4">Plant Collection</h1>
                     </p>
                   </div>
-                  <div class="row justify pb-4 mt-3">
-                    <div class="card bg-info margin" style="width:190px">
-                       <img class="card-img-top" src="./images/fpot1.png" alt="Card image">
-                   </div>
-                   <div class="card bg-light" style="width:190px">
-                       <img class="card-img-top" src="./images/fpot2.png" alt="Card image">
-                   </div>
-                   <div class="card bg-primary" style="width:190px">
+                  <div class="row pb-4 mt-3 mx-auto">
+                    <div class="col-sm-4">
+                      <div class="bg-gray">
                         <img class="card-img-top" src="./images/fpot3.png" alt="Card image">
+                      </div>
+                      <p>Green Egg Plant</p>
+                   </div>
+                   <div class="col-sm-4">
+                    <div class=" bg-gray">
+                      <img class="card-img-top" src="./images/fpot2.png" alt="Card image">
+                    </div>
+                    <p>Plant Vegetable</p>
+                   </div>
+                   <div class="col-sm-4">
+                    <div class="bg-babyp">
+                      <img class="card-img-top" src="./images/fpot3.png" alt="Card image">
+                    </div>
+                    <p>Kalum Leafy Plant</p>
                    </div>
                   </div>
-                </div>
-                <div class="row bg-white pt-4">
-                  <div class="col-4 mt-4 bg-success mb-4 margin">
-                       <img class="card-img-top" src="./images/fpot2.png" alt="Card image">
-
+                   </div>
+                   <div class="row bg-white pt-4 mx-auto">
+                  <div class="col-5 mt-4 bg-success mb-4">
+                       <img class="card-img-top margin-" src="./images/fpot2.png" alt="Card image">
                   </div>
-                  <div class="col-6 pt-4 my-4 bg-success border-radius2">
+                  <div class="col-7 pt-4 my-4 bg-success border-radius2">
 
                     <p>
                       <h3 class="text-warning">Our Journey</h3>
@@ -95,47 +110,194 @@
                         home services, consultation and coaching. We are simply the best plug.
                     </p>
                   </div>
-                </div> 
-                <div class="row bg-white">
-                  <div class="col-8 mx-auto">
-                    <p>
-                      <h3 class="text-center text-success">Choose the right plant</h3>
-                    </p>
+                   </div> 
+                  <div class="row bg-white pb-4 mb-4">
+                    <div class="col-10 mx-auto mt-4">
+                      <p>
+                         <h3 class="text-center text-success">Choose the right plant</h3>
+                      </p>
+                    </div>
                   </div>
-                  <div class="row justify mt-4 pb-4">
-                    <div class="card bg-warning margin" style="width:190px">
+                  <div class="row mt-4 pb-4">
+                    <div class="col-sm-4">
+                      <div class="bg-yelo pt-3 pb-1 padding">
                         <div class="bg-success rounded-circle">
-                          <img class="card-img-top" src="./images/fpot1.png" alt="Card image">
+                          <img style="width: 80%;" src="./images/fpot1.png">
                         </div>
-                       <div class="card-body">
-                          <h4 class="card-title">Indoor Plants</h4>
-                          <p class="card-text text-info">
-                            <h6>
+                       <div>
+                          <h5 class="mt-4 text-success">Indoor Plants</h5>
+                          <p>
+                            <h6 class="text-success">
                               Some example text. Visit to catch a glimpse of nature at its freshest
                             </h6>
                           </p>
                        </div>
+                      </div>
                    </div>
-                   <div class="card bg-success" style="width:190px">
-                    <div class="bg-success rounded cirle">
-                      <img class="card-img-top" src="./images/fpot2.png" alt="Card image">
-
+                   <div class="col-sm-4">
+                    <div class="bg-success pt-3 pb-1 padding">
+                    <div class="bg-yelo rounded-circle ml-2">
+                      <img style="width: 80%;" src="./images/bigflower-png.png">
                     </div>
-                    <div class="card-body">
-                      <h4 class="card-title">Indoor Plants</h4>
-                      <p class="card-text text-light">
-                        <h6>
+                    <div>
+                      <h5 class="mt-4 text-white">Outdoor Plants</h5>
+                      <p>
+                        <h6 class="text-white">
                           Some example text. Visit to catch a glimpse of nature at its freshest
                         </h6>
                       </p>
                    </div>
-                        
                    </div>
-                   <div class="card bg-warning" style="width:190px">
-                        <img class="card-img-top" src="./images/fpot3.png" alt="Card image">
+                   </div>
+                   <div class="col-sm-4">
+                    <div class="bg-yelo pt-3 pb-1 padding">
+                      <div class="bg-success rounded-circle">
+                        <img style="width: 80%;" src="./images/fpot3.png">
+                      </div>
+                      <div>
+                        <h5 class="mt-4 text-success">Office Plants</h5>
+                      <p>
+                        <h6 class="text-success">
+                          Some example text. Visit to catch a glimpse of nature at its freshest
+                        </h6>
+                      </p>
+                      </div>
+                   </div>
                    </div>
                   </div>
-                </div>      
+                   
+                   <div class="row bg-success pt-2 pb-4 margin-top margin-bottom mx-auto border-radius3">
+                    <div class="col-6 bg-success mx-auto border-radius3">
+                     <p>
+                        <h6 class="text-white">
+                          Plants do not speak but their silence is alive with change."
+                        </h6>
+                     </p>
+                     <p>
+                      <h6 class="text-warning">
+                        May Sarton
+                      </h6>
+                     </p>
+                   </div>
+                   <div class="col-4 bg-success mx-auto">
+                      <div class="margin--">
+                         <img class="card-img" src="./images/bigflower-png.png" alt="Card image">
+                      </div>
+                   </div>                  
+                   </div>
+                   <div class="row bg-white mb-4">
+                    <div class="col-10 mx-auto">
+                      <p>
+                         <h2 class="text-center text-success">Testimonial</h2>
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row pb-4 mb-4">
+                    <div class="col-sm-4">
+                      <div class="pt-3 pb-1 padding border1">
+                        <div class="col-12">
+                         <p class="text-body line-height">
+                             <small>Some example text. Visit to catch a glimpse of 
+                              nature at its freshest of air. Planting trees and Flowers
+                            are beneficial to health. Try it today for the environment.</small>
+                         </p>
+                       </div>
+                       <div class="col-12 mx-auto">
+                        <div class="row pb-3">
+                        <div class="col-3 bg-info rounded-circle">
+                          <img style="width: 300%; height: 100%; margin-left: -15px;" src="./images/w1.webp">
+                        </div>
+                        <div class="col-9 pt-2">Silvia Robert</div>
+                      </div>
+                      </div>
+                     </div>
+                   </div>
+                   <div class="col-sm-4">
+                    <div class="pt-3 pb-1 padding border1">
+                      <div class="col-12">
+                       <p class="text-body line-height">
+                           <small>Some example text. Visit to catch a glimpse of 
+                            nature at its freshest of air. Planting trees and Flowers
+                          are beneficial to health. Try it today for the environment.</small>
+                       </p>
+                     </div>
+                     <div class="col-12 mx-auto">
+                      <div class="row pb-3">
+                      <div class="col-3 bg-info rounded-circle">
+                        <img style="width: 300%; height: 100%; margin-left: -15px;" src="./images/boy.png">
+                      </div>
+                      <div class="col-9 pt-2">Dannie Kachi</div>
+                    </div>
+                    </div>
+                   </div>
+                   </div>
+                   <div class="col-sm-4">
+                    <div class="pt-3 pb-1 padding border1">
+                      <div class="col-12">
+                       <p class="text-body line-height">
+                           <small>Some example text. Visit to catch a glimpse of 
+                            nature at its freshest of air. Planting trees and Flowers
+                          are beneficial to health. Try it today for the environment.</small>
+                       </p>
+                     </div>
+                     <div class="col-12 mx-auto">
+                      <div class="row pb-3">
+                      <div class="col-3 bg-info rounded-circle">
+                        <img style="width: 300%; height: 100%; margin-left: -15px;" src="./images/w3.png">
+                      </div>
+                      <div class="col-9 pt-2">Ruth Mayor</div>
+                    </div>
+                    </div>
+                   </div>
+                   </div>
+                  </div>
+                 </div>
+              </div>
+              <div class="row mt-4 pt-2 bg-success pb-4">
+                 <div class="col-11 mx-auto border3">
+                    <div class="row mt-2 mx-auto">
+                      <div class="col-sm-6 mt-4 ml-2 border3">
+                        <p>
+                          <h3 class="text-white">Newsletter</h3>
+                        </p>
+                        <p>
+                          <small class="text-white">Subscribe to our weekly Newsletter</small>
+                        </p>
+                        <input id="email" type="text" class="form-control bg-green1" name="email" placeholder="Enter your email">
+                        <input type="submit" class="btn btn-warning" value="Subscribe">
+
+                      </div>
+                      <div class="col-3 border4 mt-4">
+                        <p>
+                          <h4 class="text-white">About Us</h4>
+                        </p>
+                        <p>
+                          <small class="text-white">About Us</small>
+                        </p>
+                        <p>
+                          <small class="text-white">Contact</small>
+                        </p>
+                        <p>
+                          <small class="text-white">Feedback</small>
+                        </p>
+                        <p>
+                          <small class="text-white">Accessibility</small>
+                        </p>
+                      </div>
+                      <div class="col-3 border4 mt-4">
+                        <p>
+                          <h4 class="text-white">Help</h4>
+                        </p>
+                        <p>
+                          <small class="text-white">Customer service</small>
+                        </p>
+                        <p>
+                          <small class="text-white">FAQ</small>
+                        </p>
+                      </div>
+                    </div>
+                 </div>
+              </div>      
             </div>  
         </div>
     </div>
